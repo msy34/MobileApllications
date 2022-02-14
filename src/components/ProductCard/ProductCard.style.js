@@ -18,6 +18,22 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     borderColor: 'black',
     borderWidth: 1,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 8,
+    },
+    shadowOpacity: 0.46,
+    shadowRadius: 11.14,
+
+    elevation: 17,
+    borderWidth: 1,
+    borderColor: 'black',
+    backgroundColor: '#ECF0F1',
+    margin: 10,
+    borderRadius: 10,
+    padding: 10,
+    alignItems: 'center',
   },
   image: {
     margin: 5,
